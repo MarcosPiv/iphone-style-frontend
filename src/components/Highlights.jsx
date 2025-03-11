@@ -11,11 +11,10 @@ const Highlights = () => {
     gsap.to('#title', {
       scrollTrigger: {
         trigger: '#title',
-        start: 'top 85%', // when the top of the trigger hits the 80% top of the viewport
-        end: 'bottom 60%',
-        scrub: 2, // smooth scrubbing, takes 1 second to reach the end value
-       // markers: true, // optional: add markers to the scroller to debug
-       toggleActions: "play none none reverse" // play the animation when the trigger is visible, reverse when it is not
+        //scrub: 2, // smooth scrubbing, takes 2 second to reach the end value
+        //markers: true, // optional: add markers to the scroller to debug
+        toggleActions: 'restart reverse restart reverse', // onEnter, onLeave, onEnterBack, onLeaveBack
+        start: 'top 85%' // when the top of the trigger hits the 85% top of the viewport
       },
       opacity: 1, 
       y: 0 ,
@@ -25,13 +24,10 @@ const Highlights = () => {
       scrollTrigger: {
         trigger: '.link',
         start: 'top 85%',
-        end: 'bottom 60%',
-        scrub: 2,
-        toggleActions: "play none none reverse"
+        toggleActions: 'restart reverse restart reverse'
       },
       opacity: 1,
       y: 0, 
-      duration: 1,
       stagger: 0.25 ,
        ease: "back.out(1.7)"
     })
