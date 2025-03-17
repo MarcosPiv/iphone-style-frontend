@@ -1,12 +1,39 @@
-# React + Vite
+# iPhone Style Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**iPhone Style Frontend** is a visually stunning web application that replicates the sleek and modern design of Apple's website. Built using cutting-edge frontend technologies, it delivers smooth animations and a highly responsive experience.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React + Vite**: Ensures a fast and efficient development experience.
+- **Tailwind CSS**: Provides a utility-first approach to styling.
+- **Three.js**: Enables 3D graphics and interactive visuals.
+- **GSAP**: Powers smooth animations and transitions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- High-quality Apple-style design.
+- Smooth animations and transitions using GSAP.
+- Interactive 3D elements powered by Three.js.
+- Fully responsive layout optimized for all devices.
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/marcospiv/iphone-style-frontend.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd iphone-style-frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the project locally:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+- Explore the Apple-inspired design.
+- Interact with 3D elements.
+- Enjoy smooth transitions and animations.
+
